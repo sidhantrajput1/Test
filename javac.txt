@@ -1,0 +1,22 @@
+//  Write a Java program to find the index of an array element.
+import java.util.Scanner;
+class ArrayIndexFinder {
+    static int findIndex(int arr[] , int element) {
+        for(int i = 0; i < arr.length; i++) {
+            if(arr[i] == element) {
+                return i;
+            }
+        }
+        return -1;
+    }
+    public static void main (String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int arr[] = {1,2,3,4,5,6};
+        System.out.print("Enter Element : ");
+        int element = sc.nextInt();
+        
+        int index = findIndex(arr, element);
+        System.out.print("Index Is : " +index);
+        
+    }
+}
