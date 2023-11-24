@@ -1,5 +1,6 @@
 //  Write a Java program to find the index of an array element.
 import java.util.Scanner;
+import java.util.*;
 class ArrayIndexFinder {
     static int findIndex(int arr[] , int element) {
         for(int i = 0; i < arr.length; i++) {
