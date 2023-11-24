@@ -15,7 +15,7 @@ class ArrayIndexFinder {
         int arr[] = {1,2,3,4,5,6};
         System.out.print("Enter Element : ");
         int element = sc.nextInt();
-        
+        // print index 
         int index = findIndex(arr, element);
         System.out.print("Index Is : " +index);
         
