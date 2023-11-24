@@ -11,6 +11,7 @@ class ArrayIndexFinder {
     }
     public static void main (String[] args) {
         Scanner sc = new Scanner(System.in);
+        // take array input
         int arr[] = {1,2,3,4,5,6};
         System.out.print("Enter Element : ");
         int element = sc.nextInt();
