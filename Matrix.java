@@ -1,5 +1,4 @@
 
-// Sum of two matrix
 import java.util.Scanner;
 
 public class Matrix {
